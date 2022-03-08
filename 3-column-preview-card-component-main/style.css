@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    columns: 3;
+    width: 100%;  
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+
+.container p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    padding-top: 30px;
+    font-size: 12px;
+    padding-right: 54px;
+}
+
+body {
+    width: 800px;
+    height: 100vh;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.sedans {
+    padding-top: 110px;
+    padding-left: 50px;
+    background-image: url('images/icon-sedans.svg');
+    background-repeat: no-repeat;    
+    background-position: 24% 8%;
+    background-color: #e38826;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.suvs {
+    padding-top: 110px;
+    padding-left: 50px;
+    background-image: url('images/icon-suvs.svg');
+    background-repeat: no-repeat;
+    background-position: 24% 8%;
+    background-color: #006970;
+}
+
+.luxury {
+    padding-top: 110px;
+    padding-left: 50px;
+    background-image: url('images/icon-luxury.svg');
+    background-repeat: no-repeat;
+    background-position: 24% 8%;
+    background-color: #004241;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.btn {
+    border: 2px solid white;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    background-color: transparent;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    transition: .2s ease;
+    cursor: pointer;
+}
+
+span {
+    text-transform: uppercase;
+    font-size: 2em;
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+}
